@@ -1,0 +1,28 @@
+footer {
+  background-color: $fourth-color;
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      color: #666 !important;
+      padding: 1rem;
+    }
+
+    #socials {
+      padding: 1rem;
+    }
+
+    p {
+      padding: 1rem;
+      font-size: 0.8rem;
+    }
+
+    i {
+      color: #666;
+      padding: 0 0.3rem;
+    }
+  }
+}

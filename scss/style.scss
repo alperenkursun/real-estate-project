@@ -1,0 +1,24 @@
+// $first-color: #bf9270;
+// $secondary-color: #e3b7a0;
+// $third-color: #edcdbb;
+// $fourth-color: #ffeddb;
+
+// $first-color: #5800ff;
+// $secondary-color: #0096ff;
+// $third-color: #00d7ff;
+// $fourth-color: #72ffff;
+
+$first-color: #f47c7c;
+$secondary-color: #ef9f9f;
+$third-color: #fad4d4;
+$fourth-color: #fff2f2;
+
+@import "_base.scss";
+@import "_utilities.scss";
+@import "_header.scss";
+@import "_main.scss";
+@import "_responsive.scss";
+@import "_helps.scss";
+@import "_explore.scss";
+@import "_map.scss";
+@import "_footer.scss";

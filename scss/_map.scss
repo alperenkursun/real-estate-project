@@ -1,0 +1,39 @@
+#map {
+  background: $fourth-color;
+  background: linear-gradient(90deg, $fourth-color 0%, $first-color 100%);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    color: #666;
+    h3 {
+      padding-bottom: 1rem;
+      font-family: "Dancing Script", cursive;
+      font-size: 2rem;
+    }
+
+    p {
+      padding-bottom: 1rem;
+      font-family: "Cairo", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    a {
+      padding-bottom: 1rem;
+      color: #666;
+      margin-bottom: 1rem;
+      color: white;
+      border: 1px solid white;
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        background-color: $third-color;
+      }
+    }
+  }
+}

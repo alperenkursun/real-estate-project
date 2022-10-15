@@ -1,0 +1,58 @@
+#helps {
+  text-align: center;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  h1 {
+    margin-bottom: 3rem !important;
+    color: #666;
+  }
+
+  #help {
+    display: flex;
+
+    .help {
+      position: relative;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+      flex: 1;
+      margin: 1.5rem;
+      padding: 3.2rem;
+      color: white;
+      background-color: $secondary-color;
+      border-radius: 10px;
+      background: $third-color;
+      background: linear-gradient(90deg, $third-color 0%, $first-color 100%);
+      transition: all 0.5s;
+      i {
+        margin-bottom: 1rem;
+      }
+
+      h4 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin-bottom: 1.8rem;
+      }
+      a {
+        margin-bottom: 1rem;
+        color: white;
+        border: 1px solid white;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+          background-color: $third-color;
+        }
+      }
+
+      &:hover {
+        top: -1rem;
+        background: $third-color;
+        background: linear-gradient(90deg, $first-color 0%, $third-color 100%);
+      }
+    }
+  }
+}
